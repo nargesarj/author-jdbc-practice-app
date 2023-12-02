@@ -29,18 +29,6 @@ public class Article {
 		this.tags = null;
 	}
 
-	public Article(String string, long long1, String string2, String string3) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Article(String string, String string2, long long1, String string3, String string4) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Article(String string, String string2, String string3) {
-		// TODO Auto-generated constructor stub
-	}
-
 	public Long getId() {
 		return id;
 	}
@@ -87,7 +75,5 @@ public class Article {
 		return "Article [id=" + id + ", name=" + name + ", categoty=" + categoty + ", author=" + author + ", tags="
 				+ (tags != null ? tags.subList(0, Math.min(tags.size(), maxLen)) : null) + "]";
 	}
-
-	
 
 }
